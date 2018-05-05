@@ -1,5 +1,7 @@
 import React from 'react';
 import { PanResponder, View } from 'react-native';
+import PropTypes from 'prop-types';
+
 const THREE = require('three');
 const Controls = require('./lib/OrbitControls');
 
@@ -73,8 +75,8 @@ class OrbitControls extends React.Component {
   }
 }
 OrbitControls.propTypes = {
-  width: React.PropTypes.number,
-  height:  React.PropTypes.number,
+  width: PropTypes.number,
+  height: PropTypes.number,
 }
 OrbitControls.defaultProps = {
   width: 0,
