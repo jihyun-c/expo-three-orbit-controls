@@ -25,9 +25,9 @@
     "url": "git@github.com:EvanBacon/expo-three-orbit-controls.git"
   },
   "devDependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
-    "three": "^0.85.2"
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "three": "^0.92.0"
   },
   "dependencies": {
     "prop-types": "^15.6.1"
